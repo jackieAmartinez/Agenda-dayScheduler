@@ -2,7 +2,7 @@
 
 ## Application:
 
-"insert deployed github url"
+[Deployed Application](https://jackieamartinez.github.io/Agenda-dayScheduler/)
 
 ![1679171559980](image/README/1679171559980.png)
 
