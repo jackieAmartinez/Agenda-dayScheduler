@@ -32,7 +32,7 @@ textarea {
 
 .past {
     background-color: #422819;
-    color: black;
+    color: white;
 }
 
 .present {
@@ -42,7 +42,7 @@ textarea {
 
 .future {
     background-color: #6f5a49;
-    color: black;
+    color: white;
 }
 
 .saveBtn {
