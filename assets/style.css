@@ -8,7 +8,7 @@ textarea {
     border: none;
     resize: none;
     color: #000000;
-    border-left: 1px solid #6b705c;
+    border: 1px solid #6b705c;
     padding: 10px;
 }
 
@@ -32,17 +32,17 @@ textarea {
 
 .past {
     background-color: #ffe8d6;
-    color: white;
+    color: black;
 }
 
 .present {
     background-color: #ddbea9;
-    color: white;
+    color: black;
 }
 
 .future {
     background-color: #cb997e;
-    color: white;
+    color: black;
 }
 
 .saveBtn {
