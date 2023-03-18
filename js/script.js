@@ -30,7 +30,7 @@ $(document).ready(function () {
     function currentDateTime() {
         // pulls in the "real" date/time from dayjs for input into HTML
         let realDate = dayjs().format("dddd, MMMM D, YYYY"); /* console.log(realDate); */
-        let realTime = dayjs().format("H:mm"); 
+        let realTime = dayjs().format("H:mm");
         showDate = $("#currentDay").text(realDate);
         showTime = $("#currentTime").text(realTime);
     };
@@ -39,7 +39,8 @@ $(document).ready(function () {
     // function to review the id hour and apply past, present, future class and set the color associated with each
     function ppfColoration() {
         $(".time-block").each(function () {
-            let schedule = parseInt(this.id); /* console.log(schedule); */
+            let schedule = parseInt(this.id);
+            timeCount = timeCount.split(":")[0]
             if (schedule > timeCount) {
                 $(this).addClass("future");
                 $(this).removeClass("present");
