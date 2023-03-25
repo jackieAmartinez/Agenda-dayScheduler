@@ -4,10 +4,6 @@
 
 [Deployed Application](https://jackieamartinez.github.io/Agenda-dayScheduler/)
 
-![1679171559980](image/README/1679171559980.png)
-
-![1679171580593](image/README/1679171580593.png)
-
 ## Task:
 
 * Create a simple calendar application that allows a user to block-off hour-long increments.
@@ -17,7 +13,6 @@
 
 ## User Story:
 
-```lisp
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
@@ -25,7 +20,6 @@ SO THAT I can manage my time effectively
 
 ## Acceptance Criteria
 
-```lisp
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
